@@ -1,0 +1,10 @@
+CREATE OR REPLACE FUNCTION SquareNumber(
+    num NUMBER
+)
+RETURN NUMBER
+IS
+BEGIN
+    RETURN num * num;
+END;
+/
+SELECT SquareNumber(5) FROM dual;

@@ -1,0 +1,10 @@
+CREATE OR REPLACE PROCEDURE ShowMessage
+AS
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('Welcome to PL/SQL');
+END;
+/
+BEGIN
+    ShowMessage;
+END;
+/
